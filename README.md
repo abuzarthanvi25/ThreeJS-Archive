@@ -50,7 +50,7 @@ This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) 
 
 If you have any questions, feel free to reach out:
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [abuzarthanvi25@gmail.com](mailto:abuzarthanvi25@gmail.com)
 - GitHub: [abuzarthanvi25](https://github.com/abuzarthanvi25)
 
 Happy coding!
