@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Homenaje');
+@import url('https://fonts.googleapis.com/css?family=Noto + Serif + JP');
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+	margin: 0
+}
+
+menu {
+	display: block
+}
+
+canvas {
+	display: inline-block;
+	vertical-align: baseline
+}
+
+[hidden] {
+	display: none
+}
+
+a {
+	background-color: transparent
+}
+
+a:active,
+a:hover {
+	outline: 0
+}
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0
+}
+
+button {
+	color: inherit;
+	font: inherit;
+	margin: 0
+}
+
+button {
+	overflow: visible
+}
+
+button {
+	text-transform: none
+}
+
+button {
+	cursor: pointer
+}
+
+button[disabled] {
+	cursor: default
+}
+
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+
+html {
+	height: 100%
+}
+
+body {
+	min-height: 100%;
+	font-family: Homenaje, sans-serif;
+	letter-spacing: .15em;
+	background-color: #111
+}
+
+@media all and (min-width:569px) and (max-width:1366px) {
+	body {
+		font-size: 14px;
+		font-size: .875rem
+	}
+}
+
+@media all and (max-width:568px) {
+	body {
+		font-size: 12px;
+		font-size: .75rem
+	}
+}
+
+a {
+	text-decoration: none
+}
+
+::-moz-selection {
+	color: #fff;
+	background: rgba(0, 0, 0, .5)
+}
+
+::selection {
+	color: #fff;
+	background: rgba(0, 0, 0, .5)
+}
+
+.l-page--white {
+	color: #fff
+}
+
+.l-page--white a {
+	color: #fff
+}
+
+.c-button {
+	height: 2em;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-right: 1.25em;
+	padding-left: 1.25em;
+	border-radius: 1em;
+	border-width: 2px;
+	border-style: solid
+}
+
+.c-button--white {
+	border-color: #fff
+}
+
+.c-button__icon {
+	display: block;
+	margin-right: .7em
+}
+
+.c-button__icon--back {
+	width: .3em;
+	height: .3em;
+	border-top: 2px solid #fff;
+	border-left: 2px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg)
+}
+
+.c-button__icon--white {
+	border-color: #fff
+}
+
+.c-button__label {
+	font-weight: 700
+}
+
+.c-button__label .js-split-str {
+	display: inline-block
+}
+
+.c-button__icon {
+	-webkit-transition-duration: .4s;
+	transition-duration: .4s
+}
+
+.p-sketch-outline {
+	position: fixed;
+	z-index: 100;
+	bottom: 22px;
+	left: 20px
+}
+
+@media all and (max-width:568px) {
+	.p-sketch-outline {
+		right: 20px
+	}
+}
+
+.p-sketch-outline__title {
+	line-height: 1;
+	margin-top: 0;
+	margin-bottom: .075em;
+	margin-left: -.05em;
+	font-weight: 100;
+	letter-spacing: .05em
+}
+
+@media all and (min-width:1367px) {
+	.p-sketch-outline__title {
+		font-size: 150.26px
+	}
+}
+
+@media all and (min-width:569px) and (max-width:1366px) {
+	.p-sketch-outline__title {
+		font-size: 11vw
+	}
+}
+
+@media all and (max-width:568px) {
+	.p-sketch-outline__title {
+		font-size: 62.48px
+	}
+}
+
+.p-sketch-outline__date {
+	line-height: 1;
+	margin: 0
+}
+
+.p-sketch-outline__description {
+	line-height: 1.5;
+	margin: 10px 0 0
+}
+
+.p-utility-menu {
+	position: fixed;
+	z-index: 100;
+	top: 25px;
+	right: 20px
+}
+
+.p-website-outline {
+	position: fixed;
+	z-index: 100;
+	top: 20px;
+	left: 20px
+}
+
+.p-website-outline__title {
+	margin: 0 0 5px;
+	font-size: 18px;
+	font-size: 1.125rem
+}
+
+.p-website-outline__description {
+	line-height: 1.25;
+	margin: 0
+}
+
+.p-website-outline__link {
+	width: 18px;
+	height: 18px;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-right: 20px
+}
