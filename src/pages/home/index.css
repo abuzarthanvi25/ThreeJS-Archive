@@ -1,0 +1,59 @@
+.container-main {
+    margin: 50px;
+}
+
+.color-white {
+    color: whitesmoke;
+}
+
+.p-heading {
+    font-size: 5rem;
+}
+
+.content-wrapper {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-main {
+    padding: 20px;
+}
+
+.p-heading {
+    margin-bottom: 20px;
+}
+
+.content-heading {
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail {
+    width: 100%;
+    /* Adjust width */
+    height: 100%;
+    /* Adjust height */
+    object-fit: fill;
+}
